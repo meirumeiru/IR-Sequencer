@@ -40,7 +40,7 @@ namespace IRSequencer_v3.Module
 
 		public List<Sequence> sequences;
 
-		[KSPField(isPersistant = true, guiActive = true, guiActiveEditor = true, guiName = "Seqeuncer Name")]
+		[KSPField(isPersistant = true, guiActive = true, guiActiveEditor = true, guiName = "Sequencer Name")]
 		public string sequencerName = "New Sequencer";
 
 		const float POSDELTA = 0.001f;
